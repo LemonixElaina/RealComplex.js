@@ -1,5 +1,6 @@
 # RealComplex.js
 一个关于复数的Javascript库
+
 A Javascript lib about complex
 
 ## How to use it? 使用教程
@@ -40,4 +41,5 @@ console.log('4+3i的共轭复数 =', Complex.conjugate({ real: 4, imag: 3 }).toS
 
 ## Developer 开发者
 > **Lemonix** (开发)
+> 
 > **ResetPower** (提供灵感)
