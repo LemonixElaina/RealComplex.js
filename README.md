@@ -30,7 +30,7 @@ console.log('(3+2i)*(-3+3i) =', x.mult(y).toString());
 // 除法
 x.set(-3, 3);
 y.set(0.8, 0.6);
-console.log('(-3+3)/(0.8+0.6) =', x.divby(y).toString());
+console.log('(-3+3i)/(0.8+0.6i) =', x.divby(y).toString());
 ```
 
 - 共轭复数

@@ -18,7 +18,7 @@ console.log('(3+2i)*(-3+3i) =', x.mult(y).toString());
 // 除法
 x.set(-3, 3);
 y.set(0.8, 0.6);
-console.log('(-3+3)/(0.8+0.6) =', x.divby(y).toString());
+console.log('(-3+3i)/(0.8+0.6i) =', x.divby(y).toString());
 // 共轭复数
 console.log('4+3i的共轭复数 =', Complex.conjugate({ real: 4, imag: 3 }).toString())
 
