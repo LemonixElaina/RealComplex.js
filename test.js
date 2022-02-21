@@ -1,8 +1,8 @@
 /* Lemonix Complex */
 import { Complex } from './Complex.js';
 let x = new Complex, y = new Complex;
-x.set(real = 5, imag = 3);
-y.set(real = -3, imag = -1);
+x.set(5, 3);
+y.set(-3, -1);
 console.log(x, y);
 
 // 求根

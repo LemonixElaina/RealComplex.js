@@ -9,8 +9,8 @@ A Javascript lib about complex
 ```javascript
 import { Complex } from './Complex.js';
 let x = new Complex, y = new Complex;
-x.set(real = 5, imag = 3);
-y.set(real = -3, imag = -1);
+x.set(real, imag);
+y.set(real, imag);
 // or
 let x = new Complex(5, 3) .......
 ```
